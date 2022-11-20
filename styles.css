@@ -5,7 +5,6 @@
 	text-align: center;
 	color: springgreen;
 	background-color: #08324b;
-	font-size: clamp(24px, 10vw, 48px);
 }
 
 .body{
