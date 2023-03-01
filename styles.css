@@ -25,6 +25,18 @@ h2{
 	font-size: 25px;
 }
 
+a:visited {
+	color: grey;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: white;
+}
+
 .medium{
 	color: #fec50e;
 }
@@ -37,29 +49,26 @@ h2{
 	color: #a2fafe;
 }
 
-.twitter{
-	color: #20edd2;
-}
-
-.reddit{
-	color: #f0a94c;
-}
-
 .youtube{
 	color: #eb4b28;
-}
-
-.instagram{
-	color: #e84b73;
 }
 
 .linkedIn{
 	color: #20dcfe;
 }
 
-.tiktok{
-	color: #000000;
+/* FOOTER */
+
+footer {
+	font-size: 14px;
 }
-.facebook{
-	color: #177ac3;
+
+.bottom-line {
+	margin-top: 55px;
+}
+
+hr {
+	height: 2px;
+	background-color: black;
+	border-color: black;
 }
