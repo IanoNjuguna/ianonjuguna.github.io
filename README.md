@@ -1,3 +1,3 @@
-# MsanidiProgramu
+# IanoNjuguna
 
 This is my website
