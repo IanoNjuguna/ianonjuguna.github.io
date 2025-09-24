@@ -3,9 +3,6 @@
 	/* SPACE GROTESK */
 	font-family: spaceGrotesk;
 	src: url(./assets/font/spaceGrotesk/SpaceGrotesk-VariableFont_wght.ttf);
-
-	font-family: helveticaNeue;
-	src: url(./assets/font/helveticaNeue/src/assets/font/helveticaNeue/helvetica-75-bold-outline-587ebe00b76ba.ttf)
 }
 
 /*== CSS VARIABLES ==*/
