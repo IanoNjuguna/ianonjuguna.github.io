@@ -3,6 +3,9 @@
 	/* SPACE GROTESK */
 	font-family: spaceGrotesk;
 	src: url(./assets/font/spaceGrotesk/SpaceGrotesk-VariableFont_wght.ttf);
+
+	font-family: helveticaNeue;
+	src: url(./assets/font/helveticaNeue/src/assets/font/helveticaNeue/helvetica-75-bold-outline-587ebe00b76ba.ttf)
 }
 
 /*== CSS VARIABLES ==*/
@@ -40,7 +43,8 @@
 }
 
 /*== RESPONSIVE TYPOGRAPHY ==*/
-@media screen and (min-width: 1150px) {
+
+@media screen and (min-width: 600px) {
 	:root {
 		--biggest-font-size: 4.5rem;
 		--h1-font-size: 3rem;
@@ -52,14 +56,14 @@
 	}
 }
 
+
 /*== BASE ==*/
 * {
 	box-sizing: border-box;
-	padding: 0.5;
 }
 
 html {
-	scroll-behavior: smooth;
+	scroll-behavior: smooth;;
 }
 
 body {
@@ -67,6 +71,11 @@ body {
 	font-size: var(--normal-font-size);
 	background-color: var(--white-color);
 	color: var(--black-color);
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+  	min-height: 100vh;
 }
 
 ul {
@@ -111,6 +120,7 @@ img {
 	width: max-content;
 	margin: .75rem auto 2rem;
 }
+
 
 .sectionTitleOne span,
 .sectionTitleTwo span {
@@ -224,6 +234,7 @@ img {
 .svgFormat {
 	width: 32px;
 	height: 32px;
+	color:hsla(0, 0%, 0%, .12);
 }
 
 
@@ -240,6 +251,10 @@ img {
 		backdrop-filter: blur(8px);
 		transition: top .8s;
 		display: none;
+	}
+
+	.homeSocial {
+		position: sticky;
 	}
 }
 
@@ -411,6 +426,7 @@ img {
 	margin: -8% -8% 16% -8%;
 	display: grid;
 	row-gap: 2rem;
+
 }
 
 .homeSocialLink {
